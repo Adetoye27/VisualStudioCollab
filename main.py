@@ -6,9 +6,9 @@ loginPayload = {"email":credentials.Username,"password": credentials.Password}
 s = requests.Session()
 r = s.post(url="https://logicinfo.atlassian.net/jsd-login/v1/authentication/authenticate", json=loginPayload)
 
-# --------------------------------------------------------
+# -------------------------------------------------------
 # Script below needs to log into a logic ticket and pull ticket header, comments, and status
-# Prompt user for Logic ticket number when script is ran
+## Prompt user for Logic ticket number when script is ran
 # --------------------------------------------------------
 
 false = False
